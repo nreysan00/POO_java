@@ -1,0 +1,29 @@
+package ejemplo5;
+import javax.swing.JOptionPane;
+
+public class ejemplo5 {
+
+	public static void main(String[] args) {
+		//Pedimos datos por pantalla
+		String nombre = JOptionPane.showInputDialog("Introduce tu nombre: ");
+		
+		String asignatura = JOptionPane.showInputDialog("Introduce la asignatura: ");
+		
+		int nota = JOptionPane.showConfirmDialog("Introduce la nota obtenida");
+		
+		
+		//Creamos objeto
+		alumno alumno1 = new alumno(nombre, asignatura, nota);
+		
+		//Condicion para la nota
+		if (nota < 5 ) {
+			nota = "insuficiente";
+			System.out.println(alumno1.toString());
+		}
+		
+		System.out.println(alumno1.toString());
+		
+		
+	}
+
+}

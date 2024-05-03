@@ -1,0 +1,12 @@
+package ejemplo_alumno;
+
+public class ejemplo_alumno {
+
+	public static void main(String[] args) {
+		alumno alumnoejemplo = new alumno("Natán", "Lengua", 7);
+		
+		System.out.println(alumnoejemplo.toString());
+
+	}
+
+}

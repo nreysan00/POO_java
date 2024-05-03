@@ -1,0 +1,16 @@
+package ejemplo6;
+
+public class ejemplo6 {
+
+	public static void main(String[] args) {
+		
+		//Creo array de productos
+		productos[] producto1 = new productos[3];
+		
+		//Creo los elementos
+		producto1[0] = new productos("producto 1", 10);
+		producto1[1] = new perecedero(1, "producto 2", 20);
+		producto1[2] = new noperecedero("tipo 1", "producto 3", 30);
+	}
+
+}

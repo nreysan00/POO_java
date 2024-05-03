@@ -1,0 +1,25 @@
+package ejemplo_alumno;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ejemplo_alumno {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Introduce el nombre: ");
+        String nombre = sc.next();
+        
+        System.out.println("Introduce la asignatura: ");
+        String asignatura = sc.next();
+        
+        System.out.println("Introduce la nota: ");
+        int nota = sc.nextInt();
+		
+		alumno alumno1 = new alumno(nombre, asignatura, nota);
+		
+		System.out.println(alumno1.toString());
+
+	}
+
+}

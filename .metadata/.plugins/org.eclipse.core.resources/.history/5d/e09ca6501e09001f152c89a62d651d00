@@ -1,0 +1,11 @@
+package ejemplo6;
+
+public class ejemplo6 {
+
+	public static void main(String[] args) {
+		productos[] producto1 = new productos[3];
+		
+		
+	}
+
+}

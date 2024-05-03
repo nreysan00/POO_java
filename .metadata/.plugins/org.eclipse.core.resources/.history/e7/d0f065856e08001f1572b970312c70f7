@@ -1,0 +1,47 @@
+package ejemplo5;
+
+public class alumno {
+	//Atributos
+	private String nombre;
+	private String asignatura;
+	private int nota;
+	
+	/*Constructores*/
+	public alumno(String nombre, String asignatura, int nota) {
+		
+	}
+
+	/*Métodos*/
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getAsignatura() {
+		return asignatura;
+	}
+
+	public void setAsignatura(String asignatura) {
+		this.asignatura = asignatura;
+	}
+
+	public int getNota() {
+		return nota;
+	}
+
+	public void setNota(int nota) {
+		this.nota = nota;
+	}
+
+	@Override
+	public String toString() {
+		return "El alumno " + alumno + " ha obtenido " + nota + " en la asignatura " + asignatura;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+package ejemplo_alumno;
+
+public class ejemplo_alumno {
+
+	public static void main(String[] args) {
+		alumno alumno1 = new alumno(nombre, asignatura, nota);
+		
+		alumno1.setNombre("Natán");
+		alumno1.setAsignatura("Lengua");
+		alumno1.setNota(7);
+		
+		System.out.println(alumno1);
+		System.out.println(alumno1.toString());
+
+	}
+
+}

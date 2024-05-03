@@ -1,0 +1,12 @@
+package ejemplo3;
+
+public class cuenta {
+	//Atributos
+	private String titular;
+	private double retirar;
+	
+	//Constructores
+	public cuenta(String titular);
+	
+	
+}

@@ -1,0 +1,14 @@
+package herencia;
+
+public class comercial extends empleado {
+	//Atributos
+	private double comision;
+	
+	//Constructores
+	public comercial(double comision, String nombre, int edad, double salario) {
+		super(nombre, edad, salario);
+		this.comision = comision;
+	}
+	
+	
+}

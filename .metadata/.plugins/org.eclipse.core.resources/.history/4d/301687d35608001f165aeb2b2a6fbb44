@@ -1,0 +1,15 @@
+package ejemplo2;
+
+public class ejemplo2 {
+
+	public static void main(String[] args) {
+		coche v1 = new coche(0, 0, 0);
+		
+		v1.motor = 1;
+		v1.luces = 1;
+		
+		System.out.println(v1);
+
+	}
+
+}
